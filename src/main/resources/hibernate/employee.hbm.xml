@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping >
+
+<hibernate-mapping>
+    <class name="com.example.demo.hibernate.domain" table="employee">
+        <id name="id">
+            <generator class="increment"></generator>
+        </id>
+
+        <property name="firstName"></property>
+        <property name="lastName"></property>
+
+    </class>
+
+</hibernate-mapping>
