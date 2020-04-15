@@ -31,14 +31,6 @@
 
         <profile>
             <id>test</id>
-            <dependencies>
-                <dependency>
-                    <groupId>com.h2database</groupId>
-                    <artifactId>h2</artifactId>
-                    <scope>runtime</scope>
-                </dependency>
-
-            </dependencies>
             <properties>
                 <activatedProperties>test</activatedProperties>
             </properties>
